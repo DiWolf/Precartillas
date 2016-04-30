@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Conscripto.cs" />
     <Compile Include="Documento.cs" />
+    <Compile Include="dto\ViewConscriptos.cs" />
     <Compile Include="Estudio.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace entidades
@@ -24,6 +25,10 @@ namespace entidades
         [Category("Datos Básicos")]
         [DisplayName("Estudios:")]
         public int IdEstudios { get; set; }
+
+        [Category("Datos Básicos")]
+        [DisplayName("Fecha de Registro:")]
+        public DateTime FechaRegistro { get; set; }
 
         [Category("Dirección")]
         [DisplayName("Calle:")]
